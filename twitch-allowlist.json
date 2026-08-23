@@ -1,0 +1,524 @@
+{
+  "domains": {
+    "api.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "api.twitch.tv",
+      "ips": [
+        "18.239.50.104",
+        "18.239.50.118",
+        "18.239.50.12",
+        "18.239.50.121"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZON-CF | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "beacon.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "beacon.twitch.tv",
+      "ips": [
+        "100.23.135.107",
+        "16.145.62.169",
+        "32.187.179.123",
+        "34.223.164.50",
+        "35.82.240.201",
+        "52.10.139.10",
+        "52.27.146.241",
+        "54.187.102.236"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZO-ZPDX7 | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "discovered",
+      "status": "verified"
+    },
+    "canary.passport.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "canary.passport.twitch.tv",
+      "ips": [
+        "32.186.225.4",
+        "52.10.223.246",
+        "52.89.96.216"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
+      "session_phase": "unknown",
+      "source": "discovered",
+      "status": "verified"
+    },
+    "countess.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "countess.twitch.tv",
+      "ips": [],
+      "last_seen": null,
+      "resolved_asn": "",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "cvp.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "cvp.twitch.tv",
+      "ips": [
+        "3.173.161.104",
+        "3.173.161.124",
+        "3.173.161.14",
+        "3.173.161.6"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "d1v8493p60f7at.cloudfront.net": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "d1v8493p60f7at.cloudfront.net",
+      "ips": [
+        "3.173.161.104",
+        "3.173.161.124",
+        "3.173.161.14",
+        "3.173.161.6"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
+      "session_phase": "unknown",
+      "source": "seed-cname",
+      "status": "verified"
+    },
+    "d2mb634i1sflda.cloudfront.net": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "d2mb634i1sflda.cloudfront.net",
+      "ips": [
+        "18.239.50.104",
+        "18.239.50.118",
+        "18.239.50.12",
+        "18.239.50.121"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZON-CF | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-cname",
+      "status": "verified"
+    },
+    "d2nvs31859zcd8.cloudfront.net": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "d2nvs31859zcd8.cloudfront.net",
+      "ips": [
+        "3.173.129.131",
+        "3.173.129.191",
+        "3.173.129.60",
+        "3.173.129.72"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
+      "session_phase": "unknown",
+      "source": "seed-cname",
+      "status": "verified"
+    },
+    "gql.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "gql.twitch.tv",
+      "ips": [
+        "151.101.130.214",
+        "151.101.194.214",
+        "151.101.2.214",
+        "151.101.66.214"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "SKYCA-3 | Fastly, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "h2.twitch.map.fastly.net": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "h2.twitch.map.fastly.net",
+      "ips": [
+        "151.101.130.214",
+        "151.101.194.214",
+        "151.101.2.214",
+        "151.101.66.214"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "SKYCA-3 | Fastly, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-cname",
+      "status": "verified"
+    },
+    "id.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "id.twitch.tv",
+      "ips": [
+        "18.239.18.109",
+        "18.239.18.129",
+        "18.239.18.22",
+        "18.239.18.48"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZON-CF | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "irc-ws-global.chat.twitch.tv": {
+      "first_seen": "2026-08-23",
+      "hostname": "irc-ws-global.chat.twitch.tv",
+      "ips": [],
+      "last_seen": null,
+      "resolved_asn": "",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "rejected"
+    },
+    "irc-ws.chat.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "irc-ws.chat.twitch.tv",
+      "ips": [
+        "184.33.13.6",
+        "35.167.211.20",
+        "35.83.242.214",
+        "44.225.100.54",
+        "44.226.165.131",
+        "44.233.37.148",
+        "52.25.171.249",
+        "52.39.160.7"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZO-ZPDX | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "jtvnw.net": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "jtvnw.net",
+      "ips": [],
+      "last_seen": null,
+      "resolved_asn": "",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "jtvnw.twitchcdn.net": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "jtvnw.twitchcdn.net",
+      "ips": [
+        "151.101.130.214",
+        "151.101.194.214",
+        "151.101.2.214",
+        "151.101.66.214"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "SKYCA-3 | Fastly, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-cname",
+      "status": "verified"
+    },
+    "live-video.net": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "live-video.net",
+      "ips": [],
+      "last_seen": null,
+      "resolved_asn": "",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "passport.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "passport.twitch.tv",
+      "ips": [
+        "18.239.83.117",
+        "18.239.83.20",
+        "18.239.83.42",
+        "18.239.83.77"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZON-CF | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "peel.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "peel.twitch.tv",
+      "ips": [
+        "184.33.48.221",
+        "32.187.250.219",
+        "34.208.181.63",
+        "34.213.193.148",
+        "44.224.107.56",
+        "44.224.182.237",
+        "52.34.70.70",
+        "54.184.78.36"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
+      "session_phase": "unknown",
+      "source": "discovered",
+      "status": "verified"
+    },
+    "pubsub-edge.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "pubsub-edge.twitch.tv",
+      "ips": [
+        "18.239.18.101",
+        "18.239.18.40",
+        "18.239.18.46",
+        "18.239.18.92"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZON-CF | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "shovel.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "shovel.twitch.tv",
+      "ips": [
+        "100.20.215.220",
+        "16.145.103.79",
+        "184.33.48.221",
+        "35.85.208.42",
+        "44.224.182.237",
+        "52.10.236.187",
+        "52.34.70.70",
+        "52.88.174.100"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZON-PDX | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "discovered",
+      "status": "verified"
+    },
+    "spade.sci.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "spade.sci.twitch.tv",
+      "ips": [
+        "184.33.48.221",
+        "32.188.97.248",
+        "35.166.186.168",
+        "50.112.194.29",
+        "52.12.159.194",
+        "52.36.210.113",
+        "54.190.205.73",
+        "54.201.105.8"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZON-PDX | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-cname",
+      "status": "verified"
+    },
+    "spade.twitch.tv": {
+      "blocked_locally": true,
+      "first_seen": "2026-08-23",
+      "hostname": "spade.twitch.tv",
+      "ips": [
+        "32.187.250.219",
+        "44.247.63.31",
+        "52.11.142.150",
+        "52.34.102.215",
+        "52.34.70.70",
+        "52.36.210.113",
+        "54.184.237.208",
+        "54.190.205.73"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "static-cdn.jtvnw.net": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "static-cdn.jtvnw.net",
+      "ips": [
+        "151.101.130.214",
+        "151.101.194.214",
+        "151.101.2.214",
+        "151.101.66.214"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "SKYCA-3 | Fastly, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "static.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "static.twitch.tv",
+      "ips": [],
+      "last_seen": null,
+      "resolved_asn": "",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "trowel.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "trowel.twitch.tv",
+      "ips": [
+        "184.34.54.0",
+        "32.187.179.123",
+        "34.208.181.63",
+        "35.82.226.1",
+        "44.226.235.197",
+        "44.253.173.131",
+        "52.24.138.53",
+        "52.40.197.70"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
+      "session_phase": "unknown",
+      "source": "discovered",
+      "status": "verified"
+    },
+    "ttvnw.net": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "ttvnw.net",
+      "ips": [],
+      "last_seen": null,
+      "resolved_asn": "",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "twitch.com": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "twitch.com",
+      "ips": [
+        "52.42.212.97",
+        "52.43.133.118",
+        "54.69.113.251"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "twitch.tv",
+      "ips": [
+        "151.101.130.167",
+        "151.101.194.167",
+        "151.101.2.167",
+        "151.101.66.167"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "SKYCA-3 | Fastly, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "twitchcdn.net": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "twitchcdn.net",
+      "ips": [],
+      "last_seen": null,
+      "resolved_asn": "",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "usher.ttvnw.net": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "usher.ttvnw.net",
+      "ips": [
+        "18.239.83.109",
+        "18.239.83.17",
+        "18.239.83.33",
+        "18.239.83.63"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZON-CF | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "video-weaver.fra02.hls.ttvnw.net": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "video-weaver.fra02.hls.ttvnw.net",
+      "ips": [
+        "99.181.79.14"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "TWITCH | Twitch Interactive Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
+    "vizima.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "vizima.twitch.tv",
+      "ips": [
+        "3.173.161.125",
+        "3.173.161.16",
+        "3.173.161.22",
+        "3.173.161.38"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
+      "session_phase": "unknown",
+      "source": "discovered",
+      "status": "verified"
+    },
+    "www.twitch.tv": {
+      "blocked_locally": false,
+      "first_seen": "2026-08-23",
+      "hostname": "www.twitch.tv",
+      "ips": [
+        "151.101.130.214",
+        "151.101.194.214",
+        "151.101.2.214",
+        "151.101.66.214"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "SKYCA-3 | Fastly, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    }
+  },
+  "ip_netblocks": [
+    "99.181.64.0/20"
+  ],
+  "last_updated": "2026-08-23T12:42:28.450506+00:00",
+  "version": 1
+}
