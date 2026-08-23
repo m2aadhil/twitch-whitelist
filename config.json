@@ -13,7 +13,7 @@
   "known_ip_blocks": ["99.181.64.0/20"],
   "criticality": {
     "telemetry": [
-      "spade.twitch.tv", "countess.twitch.tv", "trowel.twitch.tv",
+      "spade.twitch.tv", "spade.sci.twitch.tv", "countess.twitch.tv", "trowel.twitch.tv",
       "beacon.twitch.tv", "shovel.twitch.tv", "vizima.twitch.tv", "peel.twitch.tv"
     ],
     "enhancing": [

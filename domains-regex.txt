@@ -18,8 +18,8 @@
 (\.|^)live\-video\.net$
 (\.|^)passport\.twitch\.tv$
 (\.|^)pubsub\-edge\.twitch\.tv$
-(\.|^)spade\.sci\.twitch\.tv$
 (\.|^)static\-cdn\.jtvnw\.net$
+(\.|^)static\-cloudfront\.twitchcdn\.net$
 (\.|^)static\.twitch\.tv$
 (\.|^)static\.twitchcdn\.net$
 (\.|^)ttvnw\.net$
