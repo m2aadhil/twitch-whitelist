@@ -1,0 +1,44 @@
+{
+  "name": "Twitch",
+  "state_file": "twitch-allowlist.json",
+  "trusted_suffixes": [
+    ".twitch.tv", ".twitch.com", ".jtvnw.net", ".ttvnw.net",
+    ".live-video.net", ".twitchcdn.net"
+  ],
+  "partner_suffixes": [
+    ".fastly.net", ".cloudfront.net", ".akamaized.net", ".akamai.net", ".edgesuite.net"
+  ],
+  "trusted_org_tokens": ["TWITCH", "Twitch"],
+  "ip_org_tokens": ["TWITCH"],
+  "known_ip_blocks": ["99.181.64.0/20"],
+  "seed": [
+    ["twitch.tv", "seed-base"],
+    ["www.twitch.tv", "seed-base"],
+    ["twitch.com", "seed-base"],
+    ["jtvnw.net", "seed-base"],
+    ["ttvnw.net", "seed-base"],
+    ["live-video.net", "seed-base"],
+    ["twitchcdn.net", "seed-base"],
+    ["api.twitch.tv", "seed-base"],
+    ["id.twitch.tv", "seed-base"],
+    ["passport.twitch.tv", "seed-base"],
+    ["gql.twitch.tv", "seed-base"],
+    ["pubsub-edge.twitch.tv", "seed-base"],
+    ["spade.twitch.tv", "seed-base"],
+    ["static.twitch.tv", "seed-base"],
+    ["countess.twitch.tv", "seed-base"],
+    ["cvp.twitch.tv", "seed-base"],
+    ["usher.ttvnw.net", "seed-base"],
+    ["video-weaver.fra02.hls.ttvnw.net", "seed-base"],
+    ["static-cdn.jtvnw.net", "seed-base"],
+    ["irc-ws.chat.twitch.tv", "seed-base"],
+    ["irc-ws-global.chat.twitch.tv", "seed-base"],
+    ["h2.twitch.map.fastly.net", "seed-cname"],
+    ["jtvnw.twitchcdn.net", "seed-cname"],
+    ["spade.sci.twitch.tv", "seed-cname"],
+    ["d2mb634i1sflda.cloudfront.net", "seed-cname"],
+    ["d1v8493p60f7at.cloudfront.net", "seed-cname"],
+    ["d2nvs31859zcd8.cloudfront.net", "seed-cname"]
+  ],
+  "scrape_urls": []
+}
