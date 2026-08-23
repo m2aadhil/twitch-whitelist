@@ -18,12 +18,26 @@ Twitch is Amazon-owned and serves content through a mix of **Fastly**, **AWS Clo
 
 | File | Format | Use |
 |------|--------|-----|
-| [`domains.txt`](domains.txt) | plain, one per line | GL.iNet VPN Policy (domains) + AdGuard / ad-block whitelist |
-| [`ips.txt`](ips.txt) | CIDR, one per line | GL.iNet VPN Policy (IPs) + firewall / policy routing |
+| [`glinet.txt`](glinet.txt) | one filter/line (domains + CIDRs) | **GL.iNet direct import** (VPN Policy / Parental Control) |
+| [`domains.txt`](domains.txt) | plain, one per line | AdGuard / ad-block whitelist |
+| [`ips.txt`](ips.txt) | CIDR, one per line | firewall / policy routing |
 | [`domains-adguard.txt`](domains-adguard.txt) | `@@\|\|domain^` | AdGuard Home custom allowlist rules |
 | [`domains-regex.txt`](domains-regex.txt) | Pi-hole regex | Pi-hole allowlist |
 
 ---
+
+## GL.iNet — import by URL (firmware v4.7+)
+
+GL.iNet routers (v4.7+) can import rules straight from an online text file. Use the **raw** URL (not the `github.com/.../blob/...` page URL):
+
+```
+https://raw.githubusercontent.com/m2aadhil/twitch-whitelist/main/glinet.txt
+```
+
+- **VPN → VPN Policy** → "Based on target domain or IP" → import the URL above.
+- **Parental Control → Add a New Ruleset** → import the URL above (domain filters only).
+
+`glinet.txt` follows the GL.iNet format: **one filter per line** — `domain` (matches all subdomains), `subdomain`, or `CIDR` — no comments.
 
 ## GL.iNet — VPN split-tunnel (recommended)
 

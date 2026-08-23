@@ -321,6 +321,9 @@ def main():
     ) + "\n"
     telemetry_txt = ("# Telemetry / analytics — intentionally kept BLOCKED (not allowlisted):\n"
                      + "".join(f"# {d}\n" for d in telemetry) + "\n")
+    # GL.iNet "online text file" format (firmware 4.7+): one filter per line,
+    # domain (matches subdomains) | subdomain | CIDR | IP. No comments/blanks.
+    glinet_txt = "\n".join(verified + netblocks) + "\n"
 
     files = {
         "domains.txt": domains_txt,
@@ -328,6 +331,7 @@ def main():
         "domains-adguard.txt": adguard_txt,
         "domains-regex.txt": regex_txt,
         "telemetry.txt": telemetry_txt,
+        "glinet.txt": glinet_txt,
     }
     for fn, content in files.items():
         p = os.path.join(REPO, fn)
