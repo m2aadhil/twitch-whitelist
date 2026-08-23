@@ -2,6 +2,7 @@
   "domains": {
     "api.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "api.twitch.tv",
       "ips": [
@@ -16,28 +17,47 @@
       "source": "seed-base",
       "status": "verified"
     },
+    "assets.twitch.tv": {
+      "blocked_locally": false,
+      "criticality": "enhancing",
+      "first_seen": "2026-08-23",
+      "hostname": "assets.twitch.tv",
+      "ips": [
+        "151.101.130.214",
+        "151.101.194.214",
+        "151.101.2.214",
+        "151.101.66.214"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "SKYCA-3 | Fastly, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
     "beacon.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "beacon.twitch.tv",
       "ips": [
-        "100.23.135.107",
-        "16.145.62.169",
-        "32.187.179.123",
-        "34.223.164.50",
-        "35.82.240.201",
+        "32.184.229.94",
+        "35.83.233.64",
+        "35.85.67.145",
+        "44.230.149.3",
         "52.10.139.10",
-        "52.27.146.241",
-        "54.187.102.236"
+        "52.11.142.150",
+        "52.38.105.20",
+        "54.184.237.208"
       ],
       "last_seen": "2026-08-23",
-      "resolved_asn": "AMAZO-ZPDX7 | Amazon.com, Inc.",
+      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
       "session_phase": "unknown",
       "source": "discovered",
       "status": "verified"
     },
     "canary.passport.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "canary.passport.twitch.tv",
       "ips": [
@@ -46,13 +66,31 @@
         "52.89.96.216"
       ],
       "last_seen": "2026-08-23",
-      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
+      "resolved_asn": "AMAZO-4 | Amazon.com, Inc.",
       "session_phase": "unknown",
       "source": "discovered",
       "status": "verified"
     },
+    "clips-media-assets2.twitch.tv": {
+      "blocked_locally": false,
+      "criticality": "enhancing",
+      "first_seen": "2026-08-23",
+      "hostname": "clips-media-assets2.twitch.tv",
+      "ips": [
+        "108.156.60.101",
+        "108.156.60.37",
+        "108.156.60.44",
+        "108.156.60.91"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZON-CF | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
     "countess.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "countess.twitch.tv",
       "ips": [],
@@ -64,6 +102,7 @@
     },
     "cvp.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "cvp.twitch.tv",
       "ips": [
@@ -80,6 +119,7 @@
     },
     "d1v8493p60f7at.cloudfront.net": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "d1v8493p60f7at.cloudfront.net",
       "ips": [
@@ -96,6 +136,7 @@
     },
     "d2mb634i1sflda.cloudfront.net": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "d2mb634i1sflda.cloudfront.net",
       "ips": [
@@ -112,6 +153,7 @@
     },
     "d2nvs31859zcd8.cloudfront.net": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "d2nvs31859zcd8.cloudfront.net",
       "ips": [
@@ -126,8 +168,60 @@
       "source": "seed-cname",
       "status": "verified"
     },
+    "d2xmjdvx03ij56.cloudfront.net": {
+      "blocked_locally": false,
+      "criticality": "required",
+      "first_seen": "2026-08-23",
+      "hostname": "d2xmjdvx03ij56.cloudfront.net",
+      "ips": [
+        "108.156.60.101",
+        "108.156.60.37",
+        "108.156.60.44",
+        "108.156.60.91"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZON-CF | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-cname",
+      "status": "verified"
+    },
+    "ds0h3roq6wcgc.cloudfront.net": {
+      "blocked_locally": false,
+      "criticality": "required",
+      "first_seen": "2026-08-23",
+      "hostname": "ds0h3roq6wcgc.cloudfront.net",
+      "ips": [
+        "18.65.39.115",
+        "18.65.39.18",
+        "18.65.39.55",
+        "18.65.39.69"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZO-CF | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-cname",
+      "status": "verified"
+    },
+    "eventsub.wss.twitch.tv": {
+      "blocked_locally": false,
+      "criticality": "required",
+      "first_seen": "2026-08-23",
+      "hostname": "eventsub.wss.twitch.tv",
+      "ips": [
+        "18.239.69.118",
+        "18.239.69.123",
+        "18.239.69.22",
+        "18.239.69.82"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZON-CF | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
     "gql.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "gql.twitch.tv",
       "ips": [
@@ -144,6 +238,7 @@
     },
     "h2.twitch.map.fastly.net": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "h2.twitch.map.fastly.net",
       "ips": [
@@ -160,6 +255,7 @@
     },
     "id.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "id.twitch.tv",
       "ips": [
@@ -175,6 +271,7 @@
       "status": "verified"
     },
     "irc-ws-global.chat.twitch.tv": {
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "irc-ws-global.chat.twitch.tv",
       "ips": [],
@@ -186,17 +283,18 @@
     },
     "irc-ws.chat.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "irc-ws.chat.twitch.tv",
       "ips": [
-        "184.33.13.6",
-        "35.167.211.20",
-        "35.83.242.214",
-        "44.225.100.54",
-        "44.226.165.131",
-        "44.233.37.148",
-        "52.25.171.249",
-        "52.39.160.7"
+        "184.34.147.47",
+        "32.186.242.190",
+        "44.241.158.135",
+        "44.244.195.116",
+        "52.13.127.53",
+        "52.27.150.96",
+        "52.27.85.253",
+        "52.34.106.66"
       ],
       "last_seen": "2026-08-23",
       "resolved_asn": "AMAZO-ZPDX | Amazon.com, Inc.",
@@ -206,6 +304,7 @@
     },
     "jtvnw.net": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "jtvnw.net",
       "ips": [],
@@ -217,6 +316,7 @@
     },
     "jtvnw.twitchcdn.net": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "jtvnw.twitchcdn.net",
       "ips": [
@@ -233,6 +333,7 @@
     },
     "live-video.net": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "live-video.net",
       "ips": [],
@@ -244,6 +345,7 @@
     },
     "passport.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "passport.twitch.tv",
       "ips": [
@@ -260,17 +362,18 @@
     },
     "peel.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "peel.twitch.tv",
       "ips": [
-        "184.33.48.221",
-        "32.187.250.219",
-        "34.208.181.63",
-        "34.213.193.148",
-        "44.224.107.56",
-        "44.224.182.237",
-        "52.34.70.70",
-        "54.184.78.36"
+        "34.212.74.42",
+        "44.250.114.20",
+        "52.11.142.150",
+        "52.24.138.53",
+        "52.27.146.241",
+        "54.187.102.236",
+        "54.190.205.73",
+        "54.213.255.170"
       ],
       "last_seen": "2026-08-23",
       "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
@@ -280,6 +383,7 @@
     },
     "pubsub-edge.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "pubsub-edge.twitch.tv",
       "ips": [
@@ -296,66 +400,70 @@
     },
     "shovel.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "shovel.twitch.tv",
       "ips": [
-        "100.20.215.220",
-        "16.145.103.79",
-        "184.33.48.221",
-        "35.85.208.42",
-        "44.224.182.237",
-        "52.10.236.187",
-        "52.34.70.70",
+        "32.184.229.94",
+        "32.187.123.139",
+        "34.223.164.50",
+        "35.167.1.39",
+        "35.83.221.174",
+        "52.11.142.150",
+        "52.35.233.216",
         "52.88.174.100"
       ],
       "last_seen": "2026-08-23",
-      "resolved_asn": "AMAZON-PDX | Amazon.com, Inc.",
+      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
       "session_phase": "unknown",
       "source": "discovered",
       "status": "verified"
     },
     "spade.sci.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "spade.sci.twitch.tv",
       "ips": [
-        "184.33.48.221",
-        "32.188.97.248",
-        "35.166.186.168",
-        "50.112.194.29",
-        "52.12.159.194",
-        "52.36.210.113",
-        "54.190.205.73",
-        "54.201.105.8"
+        "100.21.62.142",
+        "100.22.36.22",
+        "16.145.62.169",
+        "32.184.237.56",
+        "35.82.240.201",
+        "44.228.152.151",
+        "52.10.139.10",
+        "52.35.233.216"
       ],
       "last_seen": "2026-08-23",
-      "resolved_asn": "AMAZON-PDX | Amazon.com, Inc.",
+      "resolved_asn": "AMAZO-ZPDX | Amazon.com, Inc.",
       "session_phase": "unknown",
       "source": "seed-cname",
       "status": "verified"
     },
     "spade.twitch.tv": {
       "blocked_locally": true,
+      "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "spade.twitch.tv",
       "ips": [
-        "32.187.250.219",
-        "44.247.63.31",
-        "52.11.142.150",
-        "52.34.102.215",
-        "52.34.70.70",
-        "52.36.210.113",
-        "54.184.237.208",
-        "54.190.205.73"
+        "100.23.135.107",
+        "16.145.103.79",
+        "34.208.181.63",
+        "44.224.107.56",
+        "52.88.174.100",
+        "52.89.239.214",
+        "54.148.140.43",
+        "54.214.103.203"
       ],
       "last_seen": "2026-08-23",
-      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
+      "resolved_asn": "AMAZO-ZPDX | Amazon.com, Inc.",
       "session_phase": "unknown",
       "source": "seed-base",
       "status": "verified"
     },
     "static-cdn.jtvnw.net": {
       "blocked_locally": false,
+      "criticality": "enhancing",
       "first_seen": "2026-08-23",
       "hostname": "static-cdn.jtvnw.net",
       "ips": [
@@ -372,6 +480,7 @@
     },
     "static.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "enhancing",
       "first_seen": "2026-08-23",
       "hostname": "static.twitch.tv",
       "ips": [],
@@ -381,28 +490,47 @@
       "source": "seed-base",
       "status": "verified"
     },
+    "static.twitchcdn.net": {
+      "blocked_locally": false,
+      "criticality": "enhancing",
+      "first_seen": "2026-08-23",
+      "hostname": "static.twitchcdn.net",
+      "ips": [
+        "18.239.18.23",
+        "18.239.18.26",
+        "18.239.18.37",
+        "18.239.18.9"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZON-CF | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
     "trowel.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "trowel.twitch.tv",
       "ips": [
-        "184.34.54.0",
-        "32.187.179.123",
-        "34.208.181.63",
-        "35.82.226.1",
-        "44.226.235.197",
-        "44.253.173.131",
-        "52.24.138.53",
-        "52.40.197.70"
+        "18.246.206.250",
+        "184.33.75.89",
+        "32.187.123.139",
+        "52.10.139.10",
+        "52.32.158.100",
+        "52.40.197.70",
+        "54.184.78.36",
+        "54.212.16.166"
       ],
       "last_seen": "2026-08-23",
-      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
+      "resolved_asn": "AMAZO-ZPDX5 | Amazon.com, Inc.",
       "session_phase": "unknown",
       "source": "discovered",
       "status": "verified"
     },
     "ttvnw.net": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "ttvnw.net",
       "ips": [],
@@ -414,6 +542,7 @@
     },
     "twitch.com": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "twitch.com",
       "ips": [
@@ -422,13 +551,14 @@
         "54.69.113.251"
       ],
       "last_seen": "2026-08-23",
-      "resolved_asn": "AT-88-Z | Amazon Technologies Inc.",
+      "resolved_asn": "AMAZON-2011L | Amazon Technologies Inc.",
       "session_phase": "unknown",
       "source": "seed-base",
       "status": "verified"
     },
     "twitch.tv": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "twitch.tv",
       "ips": [
@@ -445,6 +575,7 @@
     },
     "twitchcdn.net": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "twitchcdn.net",
       "ips": [],
@@ -456,13 +587,14 @@
     },
     "usher.ttvnw.net": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "usher.ttvnw.net",
       "ips": [
-        "18.239.83.109",
-        "18.239.83.17",
-        "18.239.83.33",
-        "18.239.83.63"
+        "18.238.243.16",
+        "18.238.243.18",
+        "18.238.243.55",
+        "18.238.243.78"
       ],
       "last_seen": "2026-08-23",
       "resolved_asn": "AMAZON-CF | Amazon.com, Inc.",
@@ -472,6 +604,7 @@
     },
     "video-weaver.fra02.hls.ttvnw.net": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "video-weaver.fra02.hls.ttvnw.net",
       "ips": [
@@ -485,6 +618,7 @@
     },
     "vizima.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "vizima.twitch.tv",
       "ips": [
@@ -499,8 +633,26 @@
       "source": "discovered",
       "status": "verified"
     },
+    "vod-secure.twitch.tv": {
+      "blocked_locally": false,
+      "criticality": "enhancing",
+      "first_seen": "2026-08-23",
+      "hostname": "vod-secure.twitch.tv",
+      "ips": [
+        "18.65.39.115",
+        "18.65.39.18",
+        "18.65.39.55",
+        "18.65.39.69"
+      ],
+      "last_seen": "2026-08-23",
+      "resolved_asn": "AMAZO-CF | Amazon.com, Inc.",
+      "session_phase": "unknown",
+      "source": "seed-base",
+      "status": "verified"
+    },
     "www.twitch.tv": {
       "blocked_locally": false,
+      "criticality": "required",
       "first_seen": "2026-08-23",
       "hostname": "www.twitch.tv",
       "ips": [
@@ -519,6 +671,6 @@
   "ip_netblocks": [
     "99.181.64.0/20"
   ],
-  "last_updated": "2026-08-23T12:42:28.450506+00:00",
+  "last_updated": "2026-08-23T12:55:28.393248+00:00",
   "version": 1
 }

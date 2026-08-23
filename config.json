@@ -11,6 +11,16 @@
   "trusted_org_tokens": ["TWITCH", "Twitch"],
   "ip_org_tokens": ["TWITCH"],
   "known_ip_blocks": ["99.181.64.0/20"],
+  "criticality": {
+    "telemetry": [
+      "spade.twitch.tv", "countess.twitch.tv", "trowel.twitch.tv",
+      "beacon.twitch.tv", "shovel.twitch.tv", "vizima.twitch.tv", "peel.twitch.tv"
+    ],
+    "enhancing": [
+      "static-cdn.jtvnw.net", "assets.twitch.tv", "static.twitchcdn.net",
+      "static.twitch.tv", "clips-media-assets2.twitch.tv", "vod-secure.twitch.tv"
+    ]
+  },
   "seed": [
     ["twitch.tv", "seed-base"],
     ["www.twitch.tv", "seed-base"],
@@ -24,13 +34,18 @@
     ["passport.twitch.tv", "seed-base"],
     ["gql.twitch.tv", "seed-base"],
     ["pubsub-edge.twitch.tv", "seed-base"],
+    ["eventsub.wss.twitch.tv", "seed-base"],
     ["spade.twitch.tv", "seed-base"],
     ["static.twitch.tv", "seed-base"],
     ["countess.twitch.tv", "seed-base"],
     ["cvp.twitch.tv", "seed-base"],
+    ["assets.twitch.tv", "seed-base"],
+    ["clips-media-assets2.twitch.tv", "seed-base"],
+    ["vod-secure.twitch.tv", "seed-base"],
     ["usher.ttvnw.net", "seed-base"],
     ["video-weaver.fra02.hls.ttvnw.net", "seed-base"],
     ["static-cdn.jtvnw.net", "seed-base"],
+    ["static.twitchcdn.net", "seed-base"],
     ["irc-ws.chat.twitch.tv", "seed-base"],
     ["irc-ws-global.chat.twitch.tv", "seed-base"],
     ["h2.twitch.map.fastly.net", "seed-cname"],
@@ -38,7 +53,9 @@
     ["spade.sci.twitch.tv", "seed-cname"],
     ["d2mb634i1sflda.cloudfront.net", "seed-cname"],
     ["d1v8493p60f7at.cloudfront.net", "seed-cname"],
-    ["d2nvs31859zcd8.cloudfront.net", "seed-cname"]
+    ["d2nvs31859zcd8.cloudfront.net", "seed-cname"],
+    ["d2xmjdvx03ij56.cloudfront.net", "seed-cname"],
+    ["ds0h3roq6wcgc.cloudfront.net", "seed-cname"]
   ],
   "scrape_urls": []
 }

@@ -59,6 +59,9 @@ IP_ORG_TOKENS = tuple(CFG.get("ip_org_tokens", []))
 KNOWN_IP_BLOCKS = set(CFG.get("known_ip_blocks", []))
 SEED = [(d, s) for d, s in CFG.get("seed", [])]
 SCRAPE_URLS = CFG.get("scrape_urls", [])
+_CRIT = CFG.get("criticality", {})
+_CRIT_TELEMETRY = set(_CRIT.get("telemetry", []))
+_CRIT_ENHANCING = set(_CRIT.get("enhancing", []))
 
 
 # --- helpers -----------------------------------------------------------------
@@ -171,6 +174,15 @@ def _has_suffix(domain, suffixes):
     return False
 
 
+def criticality(domain):
+    """required (breaks function) / enhancing (nice-to-have) / telemetry (block)."""
+    if domain in _CRIT_TELEMETRY:
+        return "telemetry"
+    if domain in _CRIT_ENHANCING:
+        return "enhancing"
+    return "required"
+
+
 def classify(domain, status, ips, cnames, org):
     if status == 3:  # NXDOMAIN
         return "rejected"
@@ -249,6 +261,10 @@ def main():
         old_status = rec.get("status")
         new_status = classify(d, status, ips, cnames, asn)
         rec["status"] = new_status
+        crit = criticality(d)
+        if rec.get("criticality") != crit:
+            rec["criticality"] = crit
+            changed = True
         if ips or cnames or local_blocked(d):
             rec["last_seen"] = today
         if old_status != new_status:
@@ -286,9 +302,13 @@ def main():
         state["ip_netblocks"] = netblocks
         changed = True
 
-    # 7) regenerate list files
-    verified = sorted(d for d, r in domains.items() if r["status"] == "verified")
-    unverified = sorted(d for d, r in domains.items() if r["status"] == "unverified")
+    # 7) regenerate list files (telemetry domains excluded from the live allowlist)
+    verified = sorted(d for d, r in domains.items()
+                      if r["status"] == "verified" and r.get("criticality", "required") != "telemetry")
+    unverified = sorted(d for d, r in domains.items()
+                        if r["status"] == "unverified" and r.get("criticality", "required") != "telemetry")
+    telemetry = sorted(d for d, r in domains.items()
+                       if r["status"] == "verified" and r.get("criticality", "required") == "telemetry")
 
     verified_lines = list(verified)
     if unverified:
@@ -299,12 +319,15 @@ def main():
     regex_txt = "\n".join(
         r"(\.|^)" + re.escape(d) + r"$" for d in verified
     ) + "\n"
+    telemetry_txt = ("# Telemetry / analytics — intentionally kept BLOCKED (not allowlisted):\n"
+                     + "".join(f"# {d}\n" for d in telemetry) + "\n")
 
     files = {
         "domains.txt": domains_txt,
         "ips.txt": ips_txt,
         "domains-adguard.txt": adguard_txt,
         "domains-regex.txt": regex_txt,
+        "telemetry.txt": telemetry_txt,
     }
     for fn, content in files.items():
         p = os.path.join(REPO, fn)
@@ -359,9 +382,11 @@ def main():
     lines = [f"📡 {NAME} allowlist refresh — {today}",
              f"Domains: {len(domains)} total · {n_verified} verified · {n_unver} unverified · {n_rej} rejected"]
     if commit:
-        lines.append(f"Updated & pushed ({commit}): {n_verified} verified domains, {len(netblocks)} IP blocks")
+        lines.append(f"Updated & pushed ({commit}): {len(verified)} verified domains, {len(netblocks)} IP blocks")
     else:
         lines.append("No changes — allowlist already current")
+    if telemetry:
+        lines.append("🔇 Telemetry (kept blocked): " + ", ".join(telemetry))
     if report["new_verified"]:
         lines.append("➕ Newly verified: " + ", ".join(report["new_verified"]))
     if report["new_unverified"]:
