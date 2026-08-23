@@ -39,6 +39,8 @@ https://raw.githubusercontent.com/m2aadhil/twitch-whitelist/main/glinet.txt
 
 `glinet.txt` follows the GL.iNet format: **one filter per line** — `domain` (matches all subdomains), `subdomain`, or `CIDR` — no comments.
 
+> ⚠️ Only `glinet.txt` is GL.iNet-format. Do **not** import `domains-adguard.txt` (`@@||…^`) or `domains-regex.txt` (Pi-hole regex) into GL.iNet — those use a different syntax and every line will be rejected.
+
 ## GL.iNet — VPN split-tunnel (recommended)
 
 1. Admin panel → **VPN → VPN Client** → your WireGuard/OpenVPN profile → **Global Options**.
