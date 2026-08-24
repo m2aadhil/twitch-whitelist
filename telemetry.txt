@@ -1,9 +1,10 @@
 # Telemetry / analytics — intentionally kept BLOCKED (not allowlisted):
-||beacon.twitch.tv^
-||countess.twitch.tv^
-||peel.twitch.tv^
-||shovel.twitch.tv^
-||spade.sci.twitch.tv^
-||spade.twitch.tv^
-||trowel.twitch.tv^
-||vizima.twitch.tv^
+# beacon.twitch.tv
+# countess.twitch.tv
+# peel.twitch.tv
+# shovel.twitch.tv
+# spade.sci.twitch.tv
+# spade.twitch.tv
+# trowel.twitch.tv
+# vizima.twitch.tv
+
