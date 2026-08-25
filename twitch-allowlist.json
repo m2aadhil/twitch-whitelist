@@ -35,7 +35,7 @@
       "status": "verified"
     },
     "beacon.twitch.tv": {
-      "blocked_locally": true,
+      "blocked_locally": false,
       "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "beacon.twitch.tv",
@@ -89,7 +89,7 @@
       "status": "verified"
     },
     "countess.twitch.tv": {
-      "blocked_locally": true,
+      "blocked_locally": false,
       "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "countess.twitch.tv",
@@ -361,7 +361,7 @@
       "status": "verified"
     },
     "peel.twitch.tv": {
-      "blocked_locally": true,
+      "blocked_locally": false,
       "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "peel.twitch.tv",
@@ -399,7 +399,7 @@
       "status": "verified"
     },
     "shovel.twitch.tv": {
-      "blocked_locally": true,
+      "blocked_locally": false,
       "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "shovel.twitch.tv",
@@ -420,7 +420,7 @@
       "status": "verified"
     },
     "spade.sci.twitch.tv": {
-      "blocked_locally": true,
+      "blocked_locally": false,
       "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "spade.sci.twitch.tv",
@@ -441,7 +441,7 @@
       "status": "verified"
     },
     "spade.twitch.tv": {
-      "blocked_locally": true,
+      "blocked_locally": false,
       "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "spade.twitch.tv",
@@ -525,7 +525,7 @@
       "status": "verified"
     },
     "trowel.twitch.tv": {
-      "blocked_locally": true,
+      "blocked_locally": false,
       "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "trowel.twitch.tv",
@@ -634,7 +634,7 @@
       "status": "verified"
     },
     "vizima.twitch.tv": {
-      "blocked_locally": true,
+      "blocked_locally": false,
       "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "vizima.twitch.tv",
@@ -688,6 +688,6 @@
   "ip_netblocks": [
     "99.181.64.0/20"
   ],
-  "last_updated": "2026-08-24T07:45:02.326727+00:00",
+  "last_updated": "2026-08-25T07:00:03.442952+00:00",
   "version": 1
 }
