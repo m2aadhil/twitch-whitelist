@@ -446,7 +446,7 @@
       "status": "verified"
     },
     "spade.twitch.tv": {
-      "blocked_locally": true,
+      "blocked_locally": false,
       "criticality": "telemetry",
       "first_seen": "2026-08-23",
       "hostname": "spade.twitch.tv",
@@ -693,6 +693,6 @@
   "ip_netblocks": [
     "99.181.64.0/20"
   ],
-  "last_updated": "2026-08-30T07:01:34.354988+00:00",
+  "last_updated": "2026-09-01T07:00:08.446347+00:00",
   "version": 1
 }
